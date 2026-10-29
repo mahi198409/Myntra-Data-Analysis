@@ -90,3 +90,6 @@ print("2. Top 10 brands ka graph banaya gaya.")
 print("3. Product prices ka distribution graph banaya gaya.")
 print("4. Average, minimum aur maximum prices calculate kiye gaye.")
 print("5. Data analysis se product brands aur prices ko samajhne mein madad mili.")
+# Top 10 Brands Analysis
+print("\n===== TOP 10 BRANDS =====")
+print(df["brand"].value_counts().head(10))
